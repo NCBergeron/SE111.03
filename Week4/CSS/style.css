@@ -1,0 +1,115 @@
+
+#container{
+    border: 2px solid gold;
+    width: 1000px;
+    height: 1345px;
+    background-color: black;
+    font-family: "Orbitron", sans-serif;
+}
+
+#castContainer{
+    border: 2px solid gold;
+    width: 1000px;
+    height: 1962px;
+    background-color: black;
+    font-family: "Orbitron", sans-serif;   
+}
+
+#header h1{
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    color: gold;
+}
+
+#nav{
+    font-weight: 600;
+    font-size: larger;
+    font-style: normal;
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.nav-btn{
+    color: gold;
+}
+
+.nav-btn:hover{
+    color: red
+}
+
+#centerDiv{
+    text-align: center;
+    margin: auto;
+}
+
+#content{
+    color:gold;
+    border-bottom: 2px solid gold;
+    padding-left: 15px;
+}
+
+#content h2{
+    text-align: center;
+    font-size: 25px;
+    color: gold
+}
+
+#content h3{
+    text-align: center;
+    color: gold
+}
+
+
+#homeInfo{
+    text-align: left;
+    border-top: 2px solid gold;
+}
+
+#footer{
+    color: black;
+    text-align: bottom;
+}
+
+#hayden{
+    border-bottom: 2px solid gold;
+}
+
+#hayden h2{
+    text-align: left;
+}
+
+#ewan{
+    border-bottom: 2px solid gold;
+}
+
+#ewan h2{
+    text-align: left;
+}
+
+#ian{
+    border-bottom: 2px solid gold;
+}
+
+#ian h2{
+    text-align: left;
+}
+
+#hayden{
+    border-bottom: 2px solid gold;
+}
+
+#natalie h2{
+    text-align: left;
+}
+
+#cast h2{
+    text-align: left;
+}
+
+#footer{
+    padding-bottom: 2px;
+}
