@@ -15,6 +15,14 @@
     font-family: "Orbitron", sans-serif;   
 }
 
+#revContainer{
+    border: 2px solid gold;
+    width: 1000px;
+    height: 962px;
+    background-color: black;
+    font-family: "Orbitron", sans-serif;   
+}
+
 #header h1{
     font-weight: 900;
     font-size: 40px;
@@ -112,4 +120,24 @@
 
 #footer{
     padding-bottom: 2px;
+}
+
+@keyframes fade{
+    from{opacity: 100;}
+    to{opacity: 0;}
+}
+
+@keyframes unFade{
+    from{opacity: 0;}
+    to{opacity: 100;}
+}
+
+#haydenC:hover{
+    background-image: url(../Images/Anakin_Skywalker_RotS.webp);
+    animation-name: fade;
+    animation-duration: 2s;    
+}
+
+#haydenC::after{
+    
 }
