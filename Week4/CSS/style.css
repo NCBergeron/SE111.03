@@ -139,38 +139,6 @@
     padding-left: 10px;
 }
 
-#hayden{
-    border-bottom: 2px solid gold;
-}
-
-#hayden h2{
-    text-align: left;
-}
-
-#ewan{
-    border-bottom: 2px solid gold;
-}
-
-#ewan h2{
-    text-align: left;
-}
-
-#ian{
-    border-bottom: 2px solid gold;
-}
-
-#ian h2{
-    text-align: left;
-}
-
-#hayden{
-    border-bottom: 2px solid gold;
-}
-
-#natalie h2{
-    text-align: left;
-}
-
 #cast h2{
     text-align: left;
 }
@@ -188,20 +156,308 @@
         padding-top: 10px;
 }
 
-#anakin{
+
+
+
+
+
+#liam{
+    border-bottom: 2px solid gold;
+}
+
+#liam h2{
+    text-align: left;
+}
+
+#qui-gon::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 360px;
+    background-image: url("../Images/Qui-Gon_Jinn.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#qui-gon:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#qui-gon{
     float:left;
 }
 
-#obiWan{
+
+
+
+
+
+#obiWanEp1::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 360px;
+    background-image: url("../Images/Obiwan\ ep\ 1.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#obiWanEp1:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#obiWanEp1{
     float:left;
 }
 
-#sheev{
+
+
+
+
+
+#jarjar::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 380px;
+    background-image: url("../Images/Jar_Jar.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#jarjar:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#ahmed{
+    border-bottom: 2px solid gold;
+}
+
+#ahmed h2{
+    text-align: left;
+}
+
+#jarjar{
     float:left;
 }
 
-#padme{
+
+
+
+
+
+#amidala::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-image: url("../Images/Queen\ Amidala.jpeg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#amidala:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#natalie h2{
+    text-align: left;
+}
+
+#amidala{
     float:left;
+}
+
+
+
+
+
+
+#ray{
+    border-bottom: 2px solid gold;
+}
+
+#ray h2{
+    text-align: left;
+}
+
+#maul::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 340px;
+    background-image: url("../Images/Darth_Maul_profile.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#maul:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#maul{
+    float:left;
+}
+
+
+
+
+
+
+#hayden{
+    border-bottom: 2px solid gold;
+}
+
+#hayden h2{
+    text-align: left;
+}
+
+#anakinEp2::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 360px;
+    background-image: url("../Images/anakin\ ep\ 2.gif");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#anakinEp2:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#anakinEp2{
+    float:left;
+}
+
+
+
+
+
+
+#ewan{
+    border-bottom: 2px solid gold;
+}
+
+#ewan h2{
+    text-align: left;
+}
+
+#obiWanEp2::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    background-image: url("../Images/ObiWanKenobi\ ep\ 2.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#obiWanEp2:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#obiWanEp2{
+    float:left;
+}
+
+
+
+
+#natalie{
+        border-bottom: 2px solid gold;
+}
+
+#natalie h2{
+    text-align: left;
+}
+
+#padmeEp2::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-image: url("../Images/padme\ ep\ 2.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#padmeEp2:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#padmeEp2{
+    float:left;
+}
+
+
+
+
+
+
+#christopher{
+        border-bottom: 2px solid gold;
+}
+
+#christopher h2{
+    text-align: left;
+}
+
+#dooku::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 332px;
+    background-image: url("../Images/Dooku.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#dooku:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#dooku{
+    float:left;
+}
+
+
+
+
+
+#hayden{
+    border-bottom: 2px solid gold;
+}
+
+#hayden h2{
+    text-align: left;
 }
 
 #anakin::before{
@@ -221,6 +477,23 @@
      transition: opacity 2s ease-in-out; 
 }
 
+#anakin{
+    float:left;
+}
+
+
+
+
+
+
+#ewan{
+    border-bottom: 2px solid gold;
+}
+
+#ewan h2{
+    text-align: left;
+}
+
 #obiWan::before{
     content: '';
     position: absolute;
@@ -236,6 +509,23 @@
 #obiWan:hover::before{
    opacity: 1;
      transition: opacity 2s ease-in-out; 
+}
+
+#obiWan{
+    float:left;
+}
+
+
+
+
+
+
+#ian{
+    border-bottom: 2px solid gold;
+}
+
+#ian h2{
+    text-align: left;
 }
 
 #sheev::before{
@@ -255,6 +545,23 @@
      transition: opacity 2s ease-in-out; 
 }
 
+#sheev{
+    float:left;
+}
+
+
+
+
+
+
+#natalie{
+        border-bottom: 2px solid gold;
+}
+
+#natalie h2{
+    text-align: left;
+}
+
 #padme::before{
     content: '';
     position: absolute;
@@ -270,4 +577,669 @@
 #padme:hover::before{
    opacity: 1;
      transition: opacity 2s ease-in-out; 
+}
+
+#padme{
+    float:left;
+}
+
+
+
+
+
+
+#mark{
+        border-bottom: 2px solid gold;
+}
+
+#mark h2{
+    text-align: left;
+}
+
+#lukeEp4::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 340px;
+    background-image: url("../Images/LukeSkywalker-LarsHomestead-Tatooine-02.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#lukeEp4:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#lukeEp4{
+    float:left;
+}
+
+
+
+
+
+#alec{
+        border-bottom: 2px solid gold;
+}
+
+#alec h2{
+    text-align: left;
+}
+
+#oldBen::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 370px;
+    background-image: url("../Images/Old\ ben.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#oldBen:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#oldBen{
+    float:left;
+}
+
+
+
+
+
+#ford{
+        border-bottom: 2px solid gold;
+}
+
+#ford h2{
+    text-align: left;
+}
+
+#hanEp4::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 372px;
+    background-image: url("../Images/han\ solo.avif");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#hanEp4:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#hanEp4{
+    float:left;
+}
+
+
+
+
+
+
+#peter{
+        border-bottom: 2px solid gold;
+}
+
+#peter h2{
+    text-align: left;
+}
+
+#chewy::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 360px;
+    background-image: url("../Images/Chewbacca.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#chewy:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#chewy{
+    float:left;
+}
+
+
+
+
+#carrie{
+        border-bottom: 2px solid gold;
+}
+
+#carrie h2{
+    text-align: left;
+}
+
+#leiaEp4::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 385px;
+    background-image: url("../Images/Princess_Leia.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#leiaEp4:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#leiaEp4{
+    float:left;
+}
+
+
+
+
+
+#mark{
+        border-bottom: 2px solid gold;
+}
+
+#mark h2{
+    text-align: left;
+}
+
+#lukeEp5::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 340px;
+    background-image: url("../Images/Luke_Skywalker\ ep\ 5.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#lukeEp5:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#lukeEp5{
+    float:left;
+}
+
+
+
+
+
+#ford{
+        border-bottom: 2px solid gold;
+}
+
+#ford h2{
+    text-align: left;
+}
+
+#hanEp5::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 372px;
+    background-image: url("../Images/Han_Solo\ ep\ 5.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#hanEp5:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#hanEp5{
+    float:left;
+}
+
+
+
+
+
+#carrie{
+        border-bottom: 2px solid gold;
+}
+
+#carrie h2{
+    text-align: left;
+}
+
+#leiaEp5::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 385px;
+    background-image: url("../Images/leia\ episode\ 5.jpeg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#leiaEp5:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#leiaEp5{
+    float:left;
+}
+
+
+
+
+
+#mark{
+        border-bottom: 2px solid gold;
+}
+
+#mark h2{
+    text-align: left;
+}
+
+#lukeEp6::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 340px;
+    background-image: url("../Images/luke\ ep\ 6.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#lukeEp6:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#lukeEp6{
+    float:left;
+}
+
+
+
+
+
+#ford{
+        border-bottom: 2px solid gold;
+}
+
+#ford h2{
+    text-align: left;
+}
+
+#hanEp6::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 372px;
+    background-image: url("../Images/han\ ep\ 6.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#hanEp6:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#hanEp6{
+    float:left;
+}
+
+
+
+
+
+#carrie{
+        border-bottom: 2px solid gold;
+}
+
+#carrie h2{
+    text-align: left;
+}
+
+#leiaEp6::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 385px;
+    background-image: url("../Images/leia\ ep\ 6.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#leiaEp6:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#leiaEp6{
+    float:left;
+}
+
+
+
+
+
+#daisy{
+        border-bottom: 2px solid gold;
+}
+
+#daisy h2{
+    text-align: left;
+}
+
+#reyEp7::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 375px;
+    background-image: url("../Images/rey\ ep\ 7.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#reyEp7:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#reyEp7{
+    float:left;
+}
+
+
+
+
+
+#john{
+        border-bottom: 2px solid gold;
+}
+
+#john h2{
+    text-align: left;
+}
+
+#finnEp7::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 335px;
+    background-image: url("../Images/finn\ ep\ 7.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#finnEp7:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#finnEp7{
+    float:left;
+}
+
+
+
+
+
+#oscar{
+        border-bottom: 2px solid gold;
+}
+
+#oscar h2{
+    text-align: left;
+}
+
+#poe::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 375px;
+    background-image: url("../Images/Poe_Dameron.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#poe:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#poe{
+    float:left;
+}
+
+
+
+
+
+#adam{
+        border-bottom: 2px solid gold;
+}
+
+#adam h2{
+    text-align: left;
+}
+
+#kylo::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 340px;
+    background-image: url("../Images/kylo\ ren.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#kylo:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#kylo{
+    float:left;
+}
+
+
+
+
+
+#daisy{
+        border-bottom: 2px solid gold;
+}
+
+#daisy h2{
+    text-align: left;
+}
+
+#reyEp8::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 375px;
+    background-image: url("../Images/rey\ ep\ 8.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#reyEp8:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#reyEp8{
+    float:left;
+}
+
+
+
+
+
+#john{
+        border-bottom: 2px solid gold;
+}
+
+#john h2{
+    text-align: left;
+}
+
+#finnEp8::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 335px;
+    background-image: url("../Images/finn\ ep\ 8.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#finnEp8:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#finnEp8{
+    float:left;
+}
+
+
+
+
+
+#daisy{
+        border-bottom: 2px solid gold;
+}
+
+#daisy h2{
+    text-align: left;
+}
+
+#reyEp9::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 375px;
+    background-image: url("../Images/rey\ episode\ 9.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#reyEp9:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#reyEp9{
+    float:left;
+}
+
+
+
+
+
+#john{
+        border-bottom: 2px solid gold;
+}
+
+#john h2{
+    text-align: left;
+}
+
+#finnEp9::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 335px;
+    background-image: url("../Images/finn\ ep\ 9.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#finnEp9:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#finnEp9{
+    float:left;
+}
+
+
+
+
+
+#adam{
+        border-bottom: 2px solid gold;
+}
+
+#adam h2{
+    text-align: left;
+}
+
+#ben::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 340px;
+    background-image: url("../Images/bensolo.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#ben:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#ben{
+    float:left;
 }
