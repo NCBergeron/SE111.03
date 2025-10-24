@@ -7,6 +7,15 @@
     font-family: "Orbitron", sans-serif;
 }
 
+#mainContainer{
+    border: 4px solid gold;
+    width: auto;
+    height: auto;
+    background-color: black;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+}
+
 #castContainer{
     border: 4px solid gold;
     width: auto;
@@ -49,6 +58,48 @@
     color: red
 }
 
+#nav h2{
+    text-align: center;
+    font-size: 25px;
+    color: gold
+}
+
+#ep1:hover{
+    border: solid 3px blue;
+}
+
+#ep2:hover{
+    border: solid 3px goldenrod;
+}
+
+#ep3:hover{
+    border: solid 3px red;
+}
+
+#ep4:hover{
+    border: solid 3px purple;
+}
+
+#ep5:hover{
+    border: solid 3px silver;
+}
+
+#ep6:hover{
+    border: solid 3px olivedrab;
+}
+
+#ep7:hover{
+    border: solid 3px orange;
+}
+
+#ep8:hover{
+    border: solid 3px red;
+}
+
+#ep9:hover{
+    border: solid 3px lightskyblue;
+}
+
 .center{
     display: block;
     margin-left: auto;
@@ -72,6 +123,9 @@
     color: gold
 }
 
+#homeTitle{
+    font-size:0px;
+}
 
 #homeInfo{
     text-align: left;
@@ -79,8 +133,10 @@
 }
 
 #footer{
-    color: black;
+    color: gold;
     text-align: bottom;
+    padding-top: 5px;
+    padding-left: 10px;
 }
 
 #hayden{
