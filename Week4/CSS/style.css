@@ -39,6 +39,47 @@
     color: gold;
 }
 
+@keyframes percentageAnimation{
+    from{
+        border: 1px solid black;
+        height: 50px;
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+    to{
+        border: 8px solid gold;
+        height: 60px;
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@keyframes underline{
+    0%{color: gold;}
+    25%{color: yellow;}
+    50%{color: gold;}
+    75%{color: goldenrod;}
+    100%{color: gold;}
+}
+
+#titleBorder:{
+    padding-left: 500px;
+    margin-left: auto;
+}
+
+#homeTitle:hover{
+    animation: percentageAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#titleBorder{
+
+}
+
 #nav{
     font-weight: 600;
     font-size: larger;
@@ -48,6 +89,23 @@
     text-align: center;
     padding-bottom: 10px;
     padding-top: 10px;
+}
+
+#titleNav{
+    font-weight: 600;
+    font-size: larger;
+    font-style: normal;
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#titleNav h2:hover{
+    animation-name: underline;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 .nav-btn{
@@ -62,6 +120,16 @@
     text-align: center;
     font-size: 25px;
     color: gold
+}
+
+#titleNav h2{
+    text-align: center;
+    font-size: 25px;
+    color: gold
+}
+
+.link{
+    color: gold;
 }
 
 #ep1:hover{
@@ -121,10 +189,6 @@
 #content h3{
     text-align: center;
     color: gold
-}
-
-#homeTitle{
-    font-size:0px;
 }
 
 #homeInfo{
@@ -385,6 +449,39 @@
 
 
 
+
+#temuera{
+    border-bottom: 2px solid gold;
+}
+
+#temuera h2{
+    text-align: left;
+}
+
+#jango::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 335px;
+    background-image: url("../Images/jango-fett.jpeg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#jango:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#jango{
+    float:left;
+}
+
+
+
+
 #natalie{
         border-bottom: 2px solid gold;
 }
@@ -546,6 +643,39 @@
 }
 
 #sheev{
+    float:left;
+}
+
+
+
+
+
+#sam{
+    border-bottom: 2px solid gold;
+}
+
+#sam h2{
+    text-align: left;
+}
+
+#mace::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 390px;
+    background-image: url("../Images/Mace_Windu.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#mace:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#mace{
     float:left;
 }
 
@@ -852,6 +982,39 @@
 
 
 
+#billy{
+        border-bottom: 2px solid gold;
+}
+
+#billy h2{
+    text-align: left;
+}
+
+#lando::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 330px;
+    background-image: url("../Images/lando-calrissian.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#lando:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#lando{
+    float:left;
+}
+
+
+
+
+
 #mark{
         border-bottom: 2px solid gold;
 }
@@ -1083,6 +1246,39 @@
 
 
 
+#ford{
+        border-bottom: 2px solid gold;
+}
+
+#ford h2{
+    text-align: left;
+}
+
+#hanEp7::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 372px;
+    background-image: url("../Images/hanold.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#hanEp7:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#hanEp7{
+    float:left;
+}
+
+
+
+
+
 #daisy{
         border-bottom: 2px solid gold;
 }
@@ -1142,6 +1338,39 @@
 }
 
 #finnEp8{
+    float:left;
+}
+
+
+
+
+
+#gwen{
+        border-bottom: 2px solid gold;
+}
+
+#gwen h2{
+    text-align: left;
+}
+
+#phasma::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    background-image: url("../Images/Captain_Phasma.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#phasma:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#phasma{
     float:left;
 }
 
@@ -1241,5 +1470,38 @@
 }
 
 #ben{
+    float:left;
+}
+
+
+
+
+
+#keri{
+        border-bottom: 2px solid gold;
+}
+
+#keri h2{
+    text-align: left;
+}
+
+#zorii::before{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 375px;
+    background-image: url("../Images/zorii-bliss.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#zorii:hover::before{
+   opacity: 1;
+     transition: opacity 2s ease-in-out; 
+}
+
+#zorii{
     float:left;
 }
