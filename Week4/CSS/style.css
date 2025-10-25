@@ -64,20 +64,11 @@
     100%{color: gold;}
 }
 
-#titleBorder:{
-    padding-left: 500px;
-    margin-left: auto;
-}
-
 #homeTitle:hover{
     animation: percentageAnimation;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-}
-
-#titleBorder{
-
 }
 
 #nav{
@@ -264,7 +255,7 @@
     position: absolute;
     width: 250px;
     height: 360px;
-    background-image: url("../Images/Obiwan\ ep\ 1.webp");
+    background-image: url("../Images/Obiwan-ep-1.webp");
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -324,7 +315,7 @@
     position: absolute;
     width: 250px;
     height: 250px;
-    background-image: url("../Images/Queen\ Amidala.jpeg");
+    background-image: url("../Images/Queen-Amidala.jpeg");
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -396,7 +387,7 @@
     position: absolute;
     width: 250px;
     height: 360px;
-    background-image: url("../Images/anakin\ ep\ 2.gif");
+    background-image: url("../Images/anakin-ep-2.gif");
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -430,7 +421,7 @@
     position: absolute;
     width: 250px;
     height: 350px;
-    background-image: url("../Images/ObiWanKenobi\ ep\ 2.webp");
+    background-image: url("../Images/ObiWanKenobi-ep-2.webp");
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -495,7 +486,7 @@
     position: absolute;
     width: 250px;
     height: 250px;
-    background-image: url("../Images/padme\ ep\ 2.png");
+    background-image: url("../Images/padme- ep- 2.png");
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -764,7 +755,7 @@
     position: absolute;
     width: 250px;
     height: 370px;
-    background-image: url("../Images/Old\ ben.webp");
+    background-image: url("../Images/Old-ben.webp");
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -797,7 +788,7 @@
     position: absolute;
     width: 250px;
     height: 372px;
-    background-image: url("../Images/han\ solo.avif");
+    background-image: url("../Images/han-solo.avif");
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -896,7 +887,7 @@
     position: absolute;
     width: 250px;
     height: 340px;
-    background-image: url("../Images/Luke_Skywalker\ ep\ 5.webp");
+    background-image: url("../Images/Luke_Skywalker-ep-5.webp");
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -929,7 +920,7 @@
     position: absolute;
     width: 250px;
     height: 372px;
-    background-image: url("../Images/Han_Solo\ ep\ 5.webp");
+    background-image: url("../Images/Han_Solo-ep-5.webp");
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -962,7 +953,7 @@
     position: absolute;
     width: 250px;
     height: 385px;
-    background-image: url("../Images/leia\ episode\ 5.jpeg");
+    background-image: url("../Images/leia-episode-5.jpeg");
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -1028,7 +1019,7 @@
     position: absolute;
     width: 250px;
     height: 340px;
-    background-image: url("../Images/luke\ ep\ 6.webp");
+    background-image: url("../Images/luke-ep-6.webp");
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -1061,7 +1052,7 @@
     position: absolute;
     width: 250px;
     height: 372px;
-    background-image: url("../Images/han\ ep\ 6.jpg");
+    background-image: url("../Images/han-ep-6.jpg");
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -1094,7 +1085,7 @@
     position: absolute;
     width: 250px;
     height: 385px;
-    background-image: url("../Images/leia\ ep\ 6.jpg");
+    background-image: url("../Images/leia-ep-6.jpg");
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -1127,7 +1118,7 @@
     position: absolute;
     width: 250px;
     height: 375px;
-    background-image: url("../Images/rey\ ep\ 7.png");
+    background-image: url("../Images/rey-ep-7.png");
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -1160,7 +1151,7 @@
     position: absolute;
     width: 250px;
     height: 335px;
-    background-image: url("../Images/finn\ ep\ 7.webp");
+    background-image: url("../Images/finn-ep-7.webp");
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -1226,7 +1217,7 @@
     position: absolute;
     width: 250px;
     height: 340px;
-    background-image: url("../Images/kylo\ ren.webp");
+    background-image: url("../Images/kylo-ren.webp");
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -1292,7 +1283,7 @@
     position: absolute;
     width: 250px;
     height: 375px;
-    background-image: url("../Images/rey\ ep\ 8.jpg");
+    background-image: url("../Images/rey-ep-8.jpg");
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -1325,7 +1316,7 @@
     position: absolute;
     width: 250px;
     height: 335px;
-    background-image: url("../Images/finn\ ep\ 8.jpg");
+    background-image: url("../Images/finn-ep-8.jpg");
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -1391,7 +1382,7 @@
     position: absolute;
     width: 250px;
     height: 375px;
-    background-image: url("../Images/rey\ episode\ 9.jpg");
+    background-image: url("../Images/rey-episode-9.jpg");
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -1424,7 +1415,7 @@
     position: absolute;
     width: 250px;
     height: 335px;
-    background-image: url("../Images/finn\ ep\ 9.webp");
+    background-image: url("../Images/finn-ep-9.webp");
     background-size: cover;
     background-position: center;
     opacity: 0;
