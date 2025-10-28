@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and Forms | Week 5</title>
+    <style>
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        tr:nth-child(even) {
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Week 5 Tables and Forms</h1>
+    <h2>Table Example</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Program</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nathan</td>
+                <td>Bergeron</td>
+                <td>Student</td>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>Kong</td>
+                <td>Student</td>
+            </tr>
+            <tr>
+                <td>Alvan</td>
+                <td>Boxwell</td>
+                <td>Student</td>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>Sullivan</td>
+                <td>Student</td>
+            </tr>
+            <tr>
+                <td>Zachary</td>
+                <td>Costa-Mello</td>
+                <td>Student</td>
+            </tr>
+            <tr>
+                <td>Justn</td>
+                <td>Alves</td>
+                <td>Student</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <h2>Basic Form Example</h2>
+    <form action="#" method="post">
+        <label for="username">Username:</label>
+        <!--Placeholder is the text shown prior to the user entering information-->
+        <input type="text" name="username" placeholder="Enter Username...">
+        <br>
+        <br>
+        <label for="password">Password:</label>
+        <input type="text" name="password" placeholder="Enter password...">
+    </form>
+    <br>
+    <br>
+
+    <!--Example of a form in a table-->
+    <form action="#" method="get">
+        <table>
+            <thread>
+                <tr>
+                    <th>Label</th>
+                    <th>Input</th>
+                </tr>
+            </thread>
+            <tbody>
+                <tr>
+                    <td>Text Input</td>
+                    <td><input type="text" name="text-input" required></td>
+                <tr>
+                    <td>Color Input</td>
+                    <td><input type="color" name="color-input" required></td>
+                </tr>
+                <tr>
+                    <td>Date Input</td>
+                    <td><input type="date" name="date-input" required></td>
+                </tr>
+                <tr>
+                    <td>File Input</td>
+                    <td><input type="file" name="file-input" required></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </form>
+</body>
+
+
+</html>
