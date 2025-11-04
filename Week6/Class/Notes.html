@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Week 6 Notes</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <!--  -->
+    <script>
+        // Hello
+        var test = "hi"; // hi is a string
+        var test = 10;
+        // Test is considered an object
+
+        var x = 20;
+
+        // Conditional Operators
+        // > Greater than
+        // < Less than
+        // <= Less than equal
+        // >= Greater than equal
+        // == Equal to
+        // != Not equal to
+        // === Same value and data type
+
+        // Logical Operators
+        // || or
+        // && and
+
+        if(x > 20 || x < 30)
+        {
+            console.log("x has passed conditions")
+        }
+
+        // ++ Adds one
+        // Two ways to add
+        x = x + 5
+        x += 5
+
+        var y = 25
+        // Adding variable to another variable
+        x += y
+
+        var boolThing = true
+        console.log(x += boolthing)
+
+        // Multiplying
+        x = x * 2
+        x *= 2
+
+
+        // Functions
+        function doSomething()
+        {
+            console.log("Hello i'm in a function")
+        }
+
+        doSomething();
+        doSomething();
+        doSomething();
+
+        // A function with Paramteters
+        function add(numOne, numTwo)
+        {
+            console.log(numOne + numTwo)
+        }
+
+        add(20,55)
+
+        function add(numOne, numTwo)
+        {
+            return numOne + numTwo;
+        }
+
+        console.log(add(20,55));
+        alert(add(59828,234678234))
+
+        var name = prompt("What is your name? ")
+        alert(name + "you're not in class :(")
+
+        var wayOne = 'hi'
+        var wayTwo = "hi"
+
+        var um = '"Hello "I am me""'
+
+        // String concatenation
+        var addStrings = "This is string 1" + "This is string two"
+
+        var name = "Ben"
+        var num = 10
+        // You can add almost anything to strings
+        console.log(name+num)
+        console.log(name+true)
+
+        var numberString = "278237862e476824"
+        // Javascript allows us to convert things to other types
+        var conversion = Number(numberString)
+        conosle.log(conversion)
+        var backConversion = String(conversion)
+
+        // Check what type something is
+        if(typeof conversion === 'number')
+            console.log(true)
+
+        console.log("My favorite show is " + name + num)
+
+        // String literal
+        var tvShow = `Hi I really like ${name} and my favorite number is ${num}`;
+        console.log(tvShow)
+    </script>
+    
+</body>
+</html>
