@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Bi-Weekly Pay Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    
+    <a id="payInfo"></a>
+
+    <a id="payCalculator"></a>
+
+    <script>
+        var rate = Number(prompt("Please enter your hourly pay rate. "));
+        var hoursWorked = Number(prompt("Please enter how many hours you worked this week. "));
+        var weeks = Number(prompt("Please enter how many weeks you worked. "))
+        var taxed = Number(prompt("Please enter the tax rate. "));
+
+        var weekPay = hoursWorked * weeks
+        var gross = rate * weekPay
+        var sams = gross * (taxed / 100)
+        var net = gross - sams
+
+        alert(`Your gross pay is ` + gross + "\n" +
+        `Uncle Sams share is ` + sams + "\n" +
+        `Your net pay is ` + net
+        );
+
+        console.log(`Your gross pay is ` + gross + "\n" +
+        `Uncle Sams share is ` + sams + "\n" +
+        `Your net pay is ` + net
+        );
+
+        document.getElementById("payCalculator").innerHTML = `Your gross pay is ` + gross + "<br>" +
+        `Uncle Sams share is ` + sams + "<br>" +
+        `Your net pay is ` + net;
+
+    </script>
+</body>
+    
+</html>
